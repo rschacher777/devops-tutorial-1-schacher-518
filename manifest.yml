@@ -1,12 +1,11 @@
+---
 applications:
 - disk_quota: 1024M
-  host: devops-tutorial
-  name: devops-tutorial
+  host: devops-tutorial-1-schacher-518
+  name: devops-tutorial-1-schacher-518
   command: node app.js
   path: .
-  domain: mybluemix.net
   instances: 1
   memory: 128M
   env:
     NODE_ENV: staging
-    
